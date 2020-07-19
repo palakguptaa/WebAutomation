@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="selenium.Login">
+        <methods>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- selenium.Login -->
+      <class name="selenium.Addtocart">
+        <methods>
+          <include name="addtocarttest"/>
+        </methods>
+      </class> <!-- selenium.Addtocart -->
+      <class name="selenium.Register">
+        <methods>
+          <include name="registertest"/>
+        </methods>
+      </class> <!-- selenium.Register -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

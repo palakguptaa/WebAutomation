@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="138350" started-at="2020-07-19T10:59:05Z" finished-at="2020-07-19T11:01:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="138350" started-at="2020-07-19T10:59:05Z" finished-at="2020-07-19T11:01:23Z">
+      <class name="selenium.Register">
+        <test-method status="PASS" signature="registertest()[pri:0, instance:selenium.Register@e45f292]" name="registertest" duration-ms="45170" started-at="2020-07-19T10:59:05Z" finished-at="2020-07-19T10:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registertest -->
+      </class> <!-- selenium.Register -->
+      <class name="selenium.Addtocart">
+        <test-method status="PASS" signature="addtocarttest()[pri:0, instance:selenium.Addtocart@3f49dace]" name="addtocarttest" duration-ms="40319" started-at="2020-07-19T11:00:43Z" finished-at="2020-07-19T11:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocarttest -->
+      </class> <!-- selenium.Addtocart -->
+      <class name="selenium.Login">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:selenium.Login@5f2108b5]" name="logintest" duration-ms="33939" started-at="2020-07-19T10:59:50Z" finished-at="2020-07-19T11:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- selenium.Login -->
+      <class name="selenium.Search">
+        <test-method status="PASS" signature="searchtest()[pri:0, instance:selenium.Search@31a5c39e]" name="searchtest" duration-ms="18866" started-at="2020-07-19T11:00:24Z" finished-at="2020-07-19T11:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+      </class> <!-- selenium.Search -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
